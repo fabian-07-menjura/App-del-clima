@@ -1,0 +1,39 @@
+<div *ngIf="resCities.length; else cargando" class="containerCards">
+  <div *ngFor="let x of resCities; index as i" class="card">
+    <div id="closeIcon" class="row">
+      <button class="btn__cerrar" (click)="eliminarCard(x.id)">X</button>
+    </div>
+
+    <div class="card-body">
+      <h5 class="card__title">{{ x.name | titlecase }}</h5>
+      <div class="cntnr__temperatura">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <p>Min</p>
+          <p>{{ x.main.temp_max | redondear }} c°</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <p>Max</p>
+          <p>{{ x.main.temp_min | redondear }} c°</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img
+            class="iconoClima"
+            src="http://openweathermap.org/img/wn/{{
+              this.resCities[i].weather[0].icon
+            }}@2x.png"
+            width="80"
+            height="80"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #cargando class="cardCargando">
+  <div class="cargando">
+    <img src="../../../assets/nubes.png" alt="imagenCargando" />
+    <h2>Esperando Ciudad...</h2>
+  </div>
+</ng-template>

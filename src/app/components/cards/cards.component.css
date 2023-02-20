@@ -1,0 +1,86 @@
+.containerCards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 5px;
+  margin: 20px;
+  width: 18rem;
+  background: rgba(50, 139, 241, 0.616);
+}
+.card:hover {
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
+    0px 6px 0px 4px rgba(0, 0, 0, 0.1),
+    -32px -3px 39px 30px rgba(38, 166, 153, 0);
+}
+.btn__cerrar {
+  font-family: cursive;
+  margin: 5px;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background: red;
+  color: white;
+}
+.btn__cerrar:hover {
+  background: rgb(229, 14, 14);
+  color: white;
+}
+.card__title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+.cntnr__temperatura {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 10px;
+  font-size: 1.1rem;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.cardCargando {
+  background: green;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cargando {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+.cargando img {
+  max-width: 10rem;
+}
+.cargando h2 {
+  font-size: 1.1rem;
+}
