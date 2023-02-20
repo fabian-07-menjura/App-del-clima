@@ -1,27 +1,35 @@
-# AppClima
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+# Proyecto Individual - App-Clima
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias
 
-## Build
+-Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone
+npm install
+npm start
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+funcionalidades:
+
+- Buscar paises o ciudades donde podras ver el clima en ese momento
+
+
+### Vistas
+
+ <p align="left"> <a href="https://github.com/fabian-07-menjura" target="_blank" rel="noreferrer"> 
+ <img width="90%" src="https://user-images.githubusercontent.com/86250631/220210837-1a1a2f9d-6546-45c5-a70b-b1c4cfeaf451.jpg"/>
+ <img width="90%" src="https://user-images.githubusercontent.com/86250631/220210859-aead6d02-195e-4fc0-bdf2-018902320b83.jpg"/>
+ <img width="45%" src="https://user-images.githubusercontent.com/86250631/220210906-e8592528-e666-4a0f-be3e-e12d56fd74e6.jpg"/>
+ 
+ </p>
